@@ -39,7 +39,7 @@ public class IPNetworkSupernetTests
     [TestMethod]
     public void Issue33__TestSupernet__Bug_or_default_behavior()
     {
-        Assert.ThrowsExactly<ArgumentOutOfRangeException>(() =>
+        Assert.ThrowsExactly<ArgumentException>(() =>
         {
             var network1 = IPNetwork2.Parse("192.168.1.0/24");
             var network2 = IPNetwork2.Parse("192.168.2.0/24");
@@ -100,7 +100,7 @@ public class IPNetworkSupernetTests
     [TestMethod]
     public void TestSupernet2()
     {
-        Assert.ThrowsExactly<NullReferenceException>(() =>
+        Assert.ThrowsExactly<ArgumentNullException>(() =>
         {
             var network1 = IPNetwork2.Parse("192.168.1.1/24");
             network1.Supernet(null);
