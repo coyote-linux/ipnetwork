@@ -54,7 +54,6 @@ public class IPNetworkV6ParseTests
         string network = "2001:db8::";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
 
-        // string broadcast = "2001:db8::";
         string firstUsable = "2001:db8::";
         string lastUsable = "2001:db8::";
         byte cidr = 128;
@@ -83,7 +82,6 @@ public class IPNetworkV6ParseTests
         string network = "2001:db8::";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe";
 
-        // string broadcast = "2001:db8::1";
         string firstUsable = "2001:db8::";
         string lastUsable = "2001:db8::1";
         byte cidr = 127;
@@ -112,7 +110,6 @@ public class IPNetworkV6ParseTests
         string network = "2001:db8::";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffc";
 
-        // string broadcast = "2001:db8::3";
         string firstUsable = "2001:db8::";
         string lastUsable = "2001:db8::3";
         byte cidr = 126;
@@ -141,7 +138,6 @@ public class IPNetworkV6ParseTests
         string network = "2001:db8::";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:fff8";
 
-        // string broadcast = "2001:db8::7";
         string firstUsable = "2001:db8::";
         string lastUsable = "2001:db8::7";
         byte cidr = 125;
@@ -170,7 +166,6 @@ public class IPNetworkV6ParseTests
         string network = "2001:db8::";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:fff0";
 
-        // string broadcast = "2001:db8::f";
         string firstUsable = "2001:db8::";
         string lastUsable = "2001:db8::f";
         byte cidr = 124;
@@ -199,7 +194,6 @@ public class IPNetworkV6ParseTests
         string network = "2001:db8::";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffe0";
 
-        // string broadcast = "2001:db8::1f";
         string firstUsable = "2001:db8::";
         string lastUsable = "2001:db8::1f";
         byte cidr = 123;
@@ -228,7 +222,6 @@ public class IPNetworkV6ParseTests
         string network = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:0";
         string netmask2 = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:0";
 
-        // string broadcast = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
         string firstUsable = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:0";
         string lastUsable = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
         byte cidr = 112;
@@ -257,7 +250,6 @@ public class IPNetworkV6ParseTests
         string network = "ffff:ffff:ffff:ffff::";
         string netmask2 = "ffff:ffff:ffff:ffff::";
 
-        // string broadcast = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
         string firstUsable = "ffff:ffff:ffff:ffff::";
         string lastUsable = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
         byte cidr = 64;
@@ -286,7 +278,6 @@ public class IPNetworkV6ParseTests
         string network = "ffff::";
         string netmask2 = "ffff::";
 
-        // string broadcast = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
         string firstUsable = "ffff::";
         string lastUsable = "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff";
         byte cidr = 16;

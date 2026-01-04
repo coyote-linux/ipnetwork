@@ -45,8 +45,7 @@ public class IPNetworkToNetmaskTests
         Assert.ThrowsExactly<ArgumentOutOfRangeException>(() =>
         {
             byte cidr = 0;
-            cidr--;
-            IPNetwork2.ToNetmask(cidr, AddressFamily.InterNetwork);
+            IPNetwork2.ToNetmask(--cidr, AddressFamily.InterNetwork);
         });
     }
 
