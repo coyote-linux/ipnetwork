@@ -12,7 +12,7 @@
         <NoWarn>SA1010</NoWarn>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-        <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+        <EnableMSTestRunner>true</EnableMSTestRunner>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
